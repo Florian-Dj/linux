@@ -21,6 +21,13 @@ whereis man  # Savoir se situe le chemin d'accès de man
 cd /home/admin/  # Chemin absolu
 cd admin/  # Chemin relatif
 ```
+| Signe | Note                                      |
+| :---: | :---------------------------------------: |
+| ~     | répertoire personnel                      |
+| .     | répertoire courant                        |
+| ..    | répertoire parent du répertoire courant   |
+| -     | dernier répertoire avant changement       |
+
 
 ## Autres
 ```
