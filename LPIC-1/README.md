@@ -17,6 +17,7 @@ ls  # Liste les fichiers et dossier dans le chemin ou nous sommes
 whereis man  # Savoir se situe le chemin d'accès de man
 echo  # Afficher un message
 exit  # Quitter l'utilisateur en cours et sortir du bash
+history  # permet de voir l'historique
 ```
 ### Commande chemin
 ```
@@ -48,6 +49,7 @@ Pour plus d'infos: **pwd --help**
 - Esc puis U: change la case du mot (min -> màj)
 - Esc puis L: change la case du mot (màj -> min)
 - Esc puis c: change la case d'une lettre
+- Ctrl + L: nettoie la console
 
 ## Autres
 ```
