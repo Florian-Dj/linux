@@ -27,6 +27,8 @@ mv path/file path/file  # Renommer et/ou déplacer un fichier
 rm path/file  # Supprier un fichier
 touch file  # Création d'un fichier
 mkdir folder  # Création d'un dossier
+rmdir folder  # Supprimer un dossier vide
+ln -s fichier1 fichier2  # Lien symbolique entre deux fichier
 ```
 
 ### Commande chemin
