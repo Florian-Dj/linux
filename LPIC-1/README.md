@@ -1,7 +1,9 @@
 # LPIC-1
 Documentation pour le certificat LPIC-1
 
+
 ## Première commandes
+
 ### Help et Man
 --help ou man pour avoir les infos sur une commande
 ```
@@ -10,6 +12,7 @@ man cd  # Manuel de la commande cd
 info cd  # Plus complet que le man
 cd --help  # Help pour la commande cd
 ```
+
 ### Commande de base
 ```
 cd  # Permet de 'naviguer' dans les dossier
@@ -17,8 +20,15 @@ ls  # Liste les fichiers et dossier dans le chemin ou nous sommes
 whereis man  # Savoir se situe le chemin d'accès de man
 echo  # Afficher un message
 exit  # Quitter l'utilisateur en cours et sortir du bash
-history  # permet de voir l'historique
+history  # Voir l'historique
+cp path/file path/file  # Copier coller d'un fichier d'un chemin vers un autre
+cp -R path/folder path/folder  # Copier coller d'un dossier complet
+mv path/file path/file  # Renommer et/ou déplacer un fichier
+rm path/file  # Supprier un fichier
+touch file  # Création d'un fichier
+mkdir folder  # Création d'un dossier
 ```
+
 ### Commande chemin
 ```
 cd /home/admin/  # Chemin absolu
@@ -50,6 +60,13 @@ Pour plus d'infos: **pwd --help**
 - Esc puis L: change la case du mot (màj -> min)
 - Esc puis c: change la case d'une lettre
 - Ctrl + L: nettoie la console
+
+
+## Globbing
+- ?: n'importe quel caractère
+- *: n'importe quelle chaine de caractère
+- [..]: l'un des caractères entres les crochets
+- [a-f]: n'importe quel caractères entre "a" et "f"
 
 ## Autres
 ```
