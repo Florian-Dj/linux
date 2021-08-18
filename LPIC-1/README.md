@@ -70,6 +70,26 @@ Pour plus d'infos: **pwd --help**
 - [..]: l'un des caractères entres les crochets
 - [a-f]: n'importe quel caractères entre "a" et "f"
 
+
+## Flux
+- entrée standard (stdin)
+- sortie standard (stdout)
+- erreur standard (stderr)
+
+
+## Redirections
+| Signe | Note                                              |
+| :---- | ------------------------------------------------- |
+| >     | stdout vers un nouveau fichier                    |
+| >>    | stdout à la suite d'un fichier                    |
+| 2>    | stderr vers nouveau fichier                       |
+| 2>>   | stderr à la suite d'un fichier                    |
+| &>    | stdout + stderr                                   |
+| <     | stdin depuis un fichier                           |
+| <<    | stdin à partir d'une chaine de cractères          |
+| <>    | stdin et stdout vers et depuis le même fichier    |
+
+
 ## Autres
 ```
 mount  # Permet de monter un disque sur la machine
