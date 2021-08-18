@@ -104,6 +104,16 @@ history | grep ls  # affiche toute les commandes ls dans l'historique
 ```
 Tester le pipe avec toutes sorte de commande (grep, cut, awk, ...)
 
+
+## Text processing
+
+### Combinaison
+```
+cat file1 file2 > file 3    # concaténer le contenu des fichiers sources dans le fichier destinations
+join file1 file2            # joindre deux fichiers en horizntale (lire la doc pour plus d'explication sur les options)
+paste file1 file2           # joindre les lignes de deux fichiers
+```
+
 ## Autres
 ```
 mount  # Permet de monter un disque sur la machine
