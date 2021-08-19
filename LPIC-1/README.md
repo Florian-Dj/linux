@@ -124,6 +124,12 @@ tr P p < file       # traduire ou éliminer des caractères (change P en p dans 
 sort file | uniq    # éliminer les lignes dupliqués dans un fichier trié
 ```
 
+### Formater
+```
+fmt file    # mettre en forme les lignes d'un fichier (75 caractères)
+nl file     # numéroter les lignes d'un fichier
+```
+
 ## Autres
 ```
 mount  # Permet de monter un disque sur la machine
