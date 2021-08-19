@@ -137,6 +137,12 @@ tail file   # afficher les dernières lignes d'un fichier
 less file   # afficher un fichier page par page
 ```
 
+### Conclusion
+```
+cut file    # affiche une partie de chaque ligne d'un fichier
+wc file     # afficher le nombre d'octets, de mot et de lignes d'un fichier
+```
+
 
 ## Autres
 ```
