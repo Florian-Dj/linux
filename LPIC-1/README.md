@@ -57,8 +57,8 @@ Ctrl + R                  # recherche de commande
 Ctrl + G                  # quitter la recherche
 Ctrl + A                  # debut de ligne
 Ctrl + E                  # fin de commande
-Ctrl + K                  # supprime depuis le curseur à la fin de lacommande
-Ctrl + X puis Backspace   # surpprime debut jusqu'au cuseur
+Ctrl + K                  # supprime le texte depuis le curseur jusqu'à la fin
+Ctrl + X puis Backspace   # surpprime le texte du début jusqu'au cuseur
 Ctrl + T                  # inverse deux caratères, curseur et celui d'avant
 Esc puis T                # inverse deux mots, curseur et précéde
 Esc puis U                # change la case du mot (min -> màj)
@@ -107,11 +107,21 @@ Tester le pipe avec toutes sorte de commande (grep, cut, awk, ...)
 
 ## Text processing
 
-### Combinaison
+### Combinaisons
 ```
 cat file1 file2 > file 3    # concaténer le contenu des fichiers sources dans le fichier destinations
 join file1 file2            # joindre deux fichiers en horizntale (lire la doc pour plus d'explication sur les options)
 paste file1 file2           # joindre les lignes de deux fichiers
+```
+
+### Transformations
+```
+expand file         # convertir les tabulations en espace
+unexpand file       # convertir les espaces en tabulation
+sort file           # trier un fichier dans l'ordre
+split file          # couper un fichier
+tr P p < file       # traduire ou éliminer des caractères (change P en p dans le fichier)
+sort file | uniq    # éliminer les lignes dupliqués dans un fichier trié
 ```
 
 ## Autres

@@ -6,5 +6,5 @@
     - [Globbing](/LPIC-1#globbing)
     - [Flux](/LPIC-1#flux)
     - [Redirections](/LPIC-1#redirections)
-    - [Pipe](/LPIC-1#pip)
+    - [Pipe](/LPIC-1#pipe)
     - [Text processing](/LPIC-1#text-processing)
