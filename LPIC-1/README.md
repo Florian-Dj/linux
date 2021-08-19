@@ -130,6 +130,14 @@ fmt file    # mettre en forme les lignes d'un fichier (75 caractères)
 nl file     # numéroter les lignes d'un fichier
 ```
 
+### Afficher
+```
+head file   # afficher les premières lignes d'un fichier
+tail file   # afficher les dernières lignes d'un fichier
+less file   # afficher un fichier page par page
+```
+
+
 ## Autres
 ```
 mount  # Permet de monter un disque sur la machine
