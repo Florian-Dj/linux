@@ -165,6 +165,58 @@ Bonjour.*au revoir\.    # chaine contenant "Bonjour" puis "au revoir"
 [ab]+[a-Z]*             # un mot commençant par un ou plusieurs 'a' ou 'b'
 ```
 
+
+## Grep
+Permet d'afficher les lignes correspondant à une expression regulière d'un fichier ou d'un flux
+
+Options:
+```
+-c  # afficher le décompte des lignes correspondantes
+-i  # ignorer la casse
+-E  # utiliser la syntaxe étendue pour les expressions régulières
+```
+
+
+## Sed
+Modifier le contenu d'un fichier ou d'un flux en fonction d'expressions régulières
+
+Options:
+```
+-e  # permet d'enchainer plusieurs commandes à la suite
+-r  # utilisation des expressions régulières étendues
+```
+
+Exemple: 's/modèle/remplacement/drapeau'
+```
+sed s/^#$/#commentaires file   # expression régulières qui sont changé en '#commentaire'
+```
+
+### Drapeaux
+|    |           |                                           |
+|----|-----------|-------------------------------------------|
+| g  | global    | toutes les occurences                     |
+| N  | -         | nième occurence                           |
+| w  | write     | écrire les modifications dans un fichier  |
+| p  | print     | afficher la ligne modifiée (avec -n)      |
+| e  | evaluate  | exécution de commande                     |
+Exemple:
+- sed 's/A/B/g' file
+- sed "s/.*5/echo '$A'/e" file
+- sed 's/A/a/gw newfile' file   # écrit que les lignes qui ont changé
+
+### Autres commandes
+| commande  | usage                 |exemple    |
+| --------- | --------------------- |---------- |
+| q         | quitter               | 3q        |
+| d         | effacer               | 3d        |
+| p         | affichage (avec-n)    | 3p        |
+| i\texte   | insérer le texte      | 3i\var    |
+| a\texte   | ajoute le texte       | 3c\var    |
+| c\texte   | remplacer par le texte| 3c\var    |
+| =         | afficher              | 3=        |
+
+Possible d'enchainer plusieurs commandes de suite
+
 ## Autres
 ```
 mount  # Permet de monter un disque sur la machine
