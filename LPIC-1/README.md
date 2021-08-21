@@ -155,30 +155,15 @@ Utile pour:
 - remplacement
 - etc ...
 
-| Rien          | Truc      |
-| ------------- | --------- |
-| Regex simple  | [...]     |
-|               |  25       |
-| Test          | 36        |
+![Regex](./images/regex.png)
 
-
-| heading |              heading 2              |
-|         |      sub head a      |  sub head b  |
-|---------|----------------------|--------------|
-| aaa     | this is still just   | ccc          |
-|         | a single row but I   |              |
-|         | talk too much        |              |
-|.........|......................|..............|
-| aaa     | bbb                  | ccc          |
-|.........|......................|..............|
-| this spans two rows and two    | ccc          |
-| columns                        |..............|
-|                                | ccc          |
-|.........|......................|..............|
-| aaa     | bbb                  | ccc          |
-|.........|......................|..............|
-| aaa     | - item one           | ccc          |
-|         | - item two           |              |
+Exemples:
+```
+^[0-9][0-9]*            # ligne commençant par un nombre
+(Free|Open|Net)BSD      # FreeBSD, OpenBSD ou NetBSD
+Bonjour.*au revoir\.    # chaine contenant "Bonjour" puis "au revoir"
+[ab]+[a-Z]*             # un mot commençant par un ou plusieurs 'a' ou 'b'
+```
 
 ## Autres
 ```
