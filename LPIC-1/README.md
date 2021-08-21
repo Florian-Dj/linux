@@ -144,6 +144,23 @@ wc file     # afficher le nombre d'octets, de mot et de lignes d'un fichier
 ```
 
 
+## Expressions regulières
+Outil pour réprésenter des motifs au sain d'un texte:
+- ie: un ensemble de chaines de caractères
+- cf globbing pour les noms de fichiers
+
+Utile pour:
+- recherche
+- suppression
+- remplacement
+- etc ...
+
+| Rien          | Truc      |
+| ------------- | --------- |
+| Regex simple  | [...]     |
+|               |  25       |
+| Test          | 36        |
+
 ## Autres
 ```
 mount  # Permet de monter un disque sur la machine
