@@ -199,6 +199,7 @@ sed s/^#$/#commentaires file   # expression régulières qui sont changé en '#c
 | w  | write     | écrire les modifications dans un fichier  |
 | p  | print     | afficher la ligne modifiée (avec -n)      |
 | e  | evaluate  | exécution de commande                     |
+
 Exemple:
 - sed 's/A/B/g' file
 - sed "s/.*5/echo '$A'/e" file
