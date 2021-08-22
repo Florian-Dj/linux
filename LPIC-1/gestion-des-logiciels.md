@@ -127,3 +127,46 @@ rpm -K file.rpm                             # vérifier le checksum du paquet
 rpm -i file.rpm                             # installer le paquet
 yum check-update                            # tout mettre à jour
 ```
+
+
+## Dpkg
+
+Gestionnaires de paquets deb créé par Ian Jackson en 1993, un des premiers systèmes de gestion de paquets modernne complet. Adopté par Debian et la plupart de ses dérivés.
+
+Dpkg permet de:
+- construire
+- installer
+- interroger
+- vérifier
+- mettre à jour
+- déinstaller
+
+### Installer un paquet
+```
+dpkg -i packages.rpm        # Installer un package
+```
+Options:
+```
+-R                          # mode récursif (indiquer un dossier)
+--ignore-depends=package    # ignorer les informations de dépendances du paquet
+-G                          # ne pas installer si une version plus récente du paquet est déjà installée
+-E                          # ne pas installer si la même version du paquet est déjà installée
+--no-act                    # simple test
+-p package                  # information si le package est installé
+-I package.rpm              # information si le package n'est pas installé
+-S pattern                  # afficher à quel paquet correspond  un fichiers
+-L package                  # lister les fichiers associés à un paquet
+```
+
+### Déinstaller un paquet
+```
+dpkg -r package     # conserve les fichiers de configurations
+dpkg -P package     # supprime les fichiers de configurations
+```
+
+### Administration
+```
+dpkg --configure package    # relancer le script de post-installation d'un paquet
+dpkg -l pattern             # lister tout les paquets correspondant à une expression
+dpkg -C                     # chercher les paquets partiellement installés
+```

@@ -17,3 +17,4 @@
     - [Concept](./gestion-des-logiciels.md#concept)
     - [Yum](./gestion-des-logiciels.md#yum)
     - [Configuration Yum](./gestion-des-logiciels.md#configuration-yum)
+    - [Dpkg](./gestion-des-logiciels.md#dpkg)
