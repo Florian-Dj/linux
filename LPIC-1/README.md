@@ -14,3 +14,6 @@
     - [Outils](./edition-de-fichier.md#outils)
     - [VIM](./edition-de-fichier.md#vim)
 - [Gestion des logiciels](./gestion-des-logiciels.md)
+    - [Concept](./gestion-des-logiciels.md#concept)
+    - [Yum](./gestion-des-logiciels.md#yum)
+    - [Configuration Yum](./gestion-des-logiciels.md#configuration-yum)

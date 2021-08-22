@@ -75,5 +75,55 @@ Nettoyer le cache
 - options: headers, packages, metadata, dbcache, plugins, expire-cache, rpmdb, all
 ```
 yum clean option
+```
+
+```
 yum shell       # permet de lancer des commandes l'une à la suite des autres
+```
+
+
+## Configuration Yum
+
+### Options de base
+- Configuration par défault:
+    - habituellement suffisante
+- Modifer les options de base
+
+- Ajouter des dépôts:
+    - non officiels
+    - plus adaptés à votre usage
+    - offrant des programmes spécifiques
+    - personnel
+
+Fichier de configuration de yum '/etc/yum.conf'
+```
+debuglevel=2            # configurer le niveau de verbosité (entre 0 et 10)
+exclude=package_name    # exlure des packages de l'installation et de la mise à jour
+gpgcheck=0              # activer/désactiver la vérificationn des signatures GPG (0 ou 1)
+retries=0               # nombre d'essais avant de retourner une erreur (0 ou plus)
+installonly_limit=value # nombre maximum de version différentes d'un paquets installés (attention nombre de Kernel !)
+exactarch=1             # prendre en compte le type d'architecture lors des màj (0 ou 1)
+```
+
+### Gestion des priorités
+```
+yum install yum-priorities  # permet d'activer les priorities
+```
+Dans le fichier : /etc/yum/pluginconf.d/priorities.conf
+```
+[main]
+enabled=1   # vérifier que la valeur = 1
+```
+Puis pour chaque dépot ajouster la priorities
+```
+priority=value  # valeur entre 0 et x (0 autant le plus haut)
+```
+
+### Ajout de dépôt via rpm
+```
+wget http://link.com/depot.rpm              # télécharger le paquet
+rpm --import http://link.com/key.dag.txt    # importer la clé GPG
+rpm -K file.rpm                             # vérifier le checksum du paquet
+rpm -i file.rpm                             # installer le paquet
+yum check-update                            # tout mettre à jour
 ```
