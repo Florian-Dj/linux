@@ -13,3 +13,4 @@
 - [Edition de fichiers](./edition-de-fichier.md):
     - [Outils](./edition-de-fichier.md#outils)
     - [VIM](./edition-de-fichier.md#vim)
+- [Gestion des logiciels](./gestion-des-logiciels.md)
