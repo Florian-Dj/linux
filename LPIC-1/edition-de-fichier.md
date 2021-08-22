@@ -1,6 +1,6 @@
 # Edition de fichiers
 
-## Les outils
+## Outils
 - Graphiques:
     - gedit sous Gnome
     - kate ou kedit sous KDE

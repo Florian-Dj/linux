@@ -10,4 +10,6 @@
     - [Expressions regulières](./commandes-gnu-à-unix.md#expressions-regulières)
     - [Grep](./commandes-gnu-à-unix.md#grep)
     - [Sed](./commandes-gnu-à-unix.md#sed)
-- [Edition de fichiers](./edition-de-fichier.md)
+- [Edition de fichiers](./edition-de-fichier.md):
+    - [Outils](./edition-de-fichier.md#outils)
+    - [VIM](./edition-de-fichier.md#vim)
