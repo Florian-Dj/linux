@@ -7,4 +7,7 @@
     - [Redirections](./commandes-gnu-à-unix.md#redirections)
     - [Pipe](./commandes-gnu-à-unix.md#pipe)
     - [Text processing](./commandes-gnu-à-unix.md#text-processing)
+    - [Expressions regulières](./commandes-gnu-à-unix.md#expressions-regulières)
+    - [Grep](./commandes-gnu-à-unix.md#grep)
+    - [Sed](./commandes-gnu-à-unix.md#sed)
 - [Edition de fichiers](./edition-de-fichier.md)

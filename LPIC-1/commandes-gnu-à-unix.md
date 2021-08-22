@@ -217,8 +217,3 @@ Exemple:
 | =         | afficher              | 3=        |
 
 Possible d'enchainer plusieurs commandes de suite
-
-## Autres
-```
-mount  # Permet de monter un disque sur la machine
-```
