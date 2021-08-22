@@ -25,11 +25,34 @@ Développé par James Gosling en 1981, puisant extensible et personnalisable.
 Clone livre de Pico, simple, efficace et minimal, écrit par Chris Allegratte en 1999. Contrôle par modificateurs (touche Ctrl)
 
 
-# Vim
+## Vim
+### Les modes
 | Touche    | Mode      | Usage                             |
 | --------- | --------- | --------------------------------- |
 | Esc       | normal    | accéder à tout les autres modes   |
 | i         | insertion | ajouter du texte                  |
 | :         | commande  | entrer des commandes              |
-| v         | visuel    |                                   |
-| q         | Ex        |                                   |
+| v         | visuel    | selectionner et actions           |
+| q         | Ex        | idem que poru le mode commande    |
+
+### Commandes utiles
+| Commandes | Usage                         |
+| --------- | ----------------------------- |
+| A         | ajouter en fin de ligne       |     
+| u         | annuler la dernière opération |
+| ctrl+r    | rétablir (redo)               |
+| yy        | copier la ligne               |
+| dd        | supprimer la ligne (couper)   |
+| p         | coller                        |
+| x         | effacer le caractère          |
+| dw        | effacer jusqu'à la fin du mot |
+| diw       | effacer le mot sous le curseur|
+| q         | quitter sans sauvegarder      |
+| q!        | quitter de force              |
+| w         | écrire (sauvegarder)          |
+| wq ou x   | quitter et sauvegarder        |
+
+Tutorial intégré en ligne de commande
+```
+vimtutor  # Tutorial pour bien comprendre vim dans un premier usage (possible de l'avoir en fr avec 'vimtuto fr')
+```
