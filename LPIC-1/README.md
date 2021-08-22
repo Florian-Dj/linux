@@ -1,10 +1,10 @@
 
-- [Commandes GNU à Unix](./commandes%20GNU%20à%20Unix):
-    - [Première commandes](./commandes%20GNU%20à%20Unix#commande-de-base)
-    - [Raccoucis clavier](./commandes%20GNU%20à%20Unix#raccoucis-clavier)
-    - [Globbing](./commandes%20GNU%20à%20Unix#globbing)
-    - [Flux](./commandes%20GNU%20à%20Unix#flux)
-    - [Redirections](./commandes%20GNU%20à%20Unix#redirections)
-    - [Pipe](./commandes%20GNU%20à%20Unix#pipe)
-    - [Text processing](./commandes%20GNU%20à%20Unix#text-processing)
-- [Edition de fichiers](./edition%20de%20fichiers)
+- [Commandes GNU à Unix](./commandes-gnu-à-unix.md):
+    - [Première commandes](./commandes-gnu-à-unix.md#commande-de-base)
+    - [Raccoucis clavier](./commandes-gnu-à-unix.md#raccoucis-clavier)
+    - [Globbing](./commandes-gnu-à-unix.md#globbing)
+    - [Flux](./commandes-gnu-à-unix.md#flux)
+    - [Redirections](./commandes-gnu-à-unix.md#redirections)
+    - [Pipe](./commandes-gnu-à-unix.md#pipe)
+    - [Text processing](./commandes-gnu-à-unix.md#text-processing)
+- [Edition de fichiers](./edition-de-fichier.md)
